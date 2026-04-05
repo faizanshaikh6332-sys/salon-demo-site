@@ -5,14 +5,14 @@ const founders = [
   {
     name: 'Aria Mehta',
     role: 'Founder & Creative Director',
-    bio: 'With over 15 years of experience in luxury beauty, Aria founded Élara with a single vision: to create a space where every guest feels truly magnificent. Trained in Paris and London, she brings international precision and warmth to every client experience.',
+    bio: 'With over 15 years of experience in luxury beauty, Aria founded Demo Site with a single vision: to create a space where every guest feels truly magnificent. Trained in Paris and London, she brings international precision and warmth to every client experience.',
     img: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&q=80&auto=format&fit=crop',
     social: '#',
   },
   {
     name: 'Priya Sharma',
     role: 'Co-Founder & Head of Education',
-    bio: 'A certified beauty educator and master aesthetician, Priya oversees our training academy and ensures every stylist meets Élara\'s gold standard. Her passion for elevating the beauty profession has transformed hundreds of careers.',
+    bio: 'A certified beauty educator and master aesthetician, Priya oversees our training academy and ensures every stylist meets Demo Site\'s gold standard. Her passion for elevating the beauty profession has transformed hundreds of careers.',
     img: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&q=80&auto=format&fit=crop',
     social: '#',
   },
@@ -54,7 +54,7 @@ export default function Founders() {
           <h2 className="heading-serif text-4xl lg:text-5xl font-bold text-white">
             The Minds Behind{' '}
             <em className="text-gold-300" style={{ fontStyle: 'italic' }}>
-              Élara
+              Demo Site
             </em>
           </h2>
           <p className="text-white/60 mt-4 max-w-xl mx-auto text-base leading-relaxed">
@@ -72,7 +72,7 @@ export default function Founders() {
         >
           <Quote className="w-10 h-10 text-gold-600 mb-4" />
           <p className="text-white/80 text-lg italic leading-loose heading-serif font-light text-center max-w-3xl mx-auto">
-            "We built Élara because we believed beauty services should never feel ordinary. Every
+            "We built Demo Site because we believed beauty services should never feel ordinary. Every
             client who walks through our doors deserves to feel seen, cared for, and utterly
             transformed — not just on the outside, but in how they carry themselves into the world."
           </p>

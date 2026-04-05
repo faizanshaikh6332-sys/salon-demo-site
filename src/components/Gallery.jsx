@@ -65,7 +65,7 @@ export default function Gallery() {
             </em>
           </h2>
           <p className="text-gray-500 mt-4 max-w-xl mx-auto text-base leading-relaxed">
-            A glimpse into the world of Élara — where every moment is crafted with artistry
+            A glimpse into the world of Demo Site — where every moment is crafted with artistry
           </p>
         </div>
 

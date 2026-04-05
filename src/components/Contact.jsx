@@ -11,8 +11,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email Us',
-    value: 'hello@elarasalon.com',
-    href: 'mailto:hello@elarasalon.com',
+    value: 'hello@demositesalon.com',
+    href: 'mailto:hello@demositesalon.com',
   },
   {
     icon: Clock,

@@ -50,7 +50,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="heading-serif font-bold text-xl text-white tracking-wide">
-                  Élara
+                  Demo Site
                 </span>
                 <span className="block text-xs text-gold-400 tracking-widest uppercase">
                   Luxury Salon
@@ -138,8 +138,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-gold-500 flex-shrink-0" />
-                <a href="mailto:hello@elarasalon.com" className="text-white/50 text-sm hover:text-gold-300 transition-colors">
-                  hello@elarasalon.com
+                <a href="mailto:hello@demositesalon.com" className="text-white/50 text-sm hover:text-gold-300 transition-colors">
+                  hello@demositesalon.com
                 </a>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/5 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-xs text-center">
-            © {year} Élara Luxury Salon. All Rights Reserved.
+            © {year} Demo Site Salon. All Rights Reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-white/30 text-xs hover:text-white/60 transition-colors">

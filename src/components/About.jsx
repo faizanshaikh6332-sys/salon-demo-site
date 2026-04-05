@@ -89,7 +89,7 @@ export default function About() {
             </h2>
 
             <p className="text-gray-600 leading-loose mb-5 text-base">
-              Born from a passion for transformative beauty, Élara Luxury Salon was founded on the
+              Born from a passion for transformative beauty, Demo Site Salon was founded on the
               belief that every person deserves to feel extraordinary. Our salon is more than a
               beauty destination — it is a carefully curated sanctuary where artistry, wellness,
               and elegance converge.

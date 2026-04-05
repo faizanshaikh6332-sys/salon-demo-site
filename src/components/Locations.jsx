@@ -3,7 +3,7 @@ import { MapPin, Phone, ExternalLink, Calendar } from 'lucide-react';
 
 const locations = [
   {
-    name: 'Élara — Bandra Flagship',
+    name: 'Demo Site — Bandra Flagship',
     address: 'Shop 5, Palm Court, 14th Road, Bandra West, Mumbai — 400050',
     hours: 'Mon–Sat: 9AM – 9PM | Sun: 10AM – 7PM',
     phone: '+91 98765 43210',
@@ -11,7 +11,7 @@ const locations = [
     tag: 'Flagship',
   },
   {
-    name: 'Élara — Juhu Boutique',
+    name: 'Demo Site — Juhu Boutique',
     address: '2nd Floor, Sea Breeze Plaza, Juhu Tara Road, Mumbai — 400049',
     hours: 'Mon–Sat: 10AM – 9PM | Sun: 11AM – 7PM',
     phone: '+91 98765 43211',
@@ -19,7 +19,7 @@ const locations = [
     tag: 'Boutique',
   },
   {
-    name: 'Élara — Powai Studio',
+    name: 'Demo Site — Powai Studio',
     address: 'Unit 8, Galleria Mall, Hiranandani Gardens, Powai, Mumbai — 400076',
     hours: 'Mon–Sat: 9AM – 8PM | Sun: 10AM – 6PM',
     phone: '+91 98765 43212',
@@ -27,7 +27,7 @@ const locations = [
     tag: 'Studio',
   },
   {
-    name: 'Élara — Pune Central',
+    name: 'Demo Site — Pune Central',
     address: 'Level 1, The Orion Hub, FC Road, Shivajinagar, Pune — 411004',
     hours: 'Mon–Sat: 9AM – 9PM | Sun: 10AM – 7PM',
     phone: '+91 98765 43213',

@@ -50,7 +50,7 @@ export default function Navbar() {
                   className="heading-serif font-bold text-xl tracking-wide"
                   style={{ color: scrolled ? '#1a1209' : '#ffffff' }}
                 >
-                  Élara
+                  Demo Site
                 </span>
                 <span
                   className="block text-xs font-light tracking-[3px] uppercase"

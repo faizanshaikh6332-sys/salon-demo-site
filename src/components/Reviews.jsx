@@ -7,7 +7,7 @@ const reviews = [
     role: 'Bride & Loyal Client',
     rating: 5,
     review:
-      'Élara made my wedding day absolutely magical. The bridal team understood my vision perfectly — I felt like royalty. The attention to detail, the premium products, the serene environment — simply unmatched!',
+      'Demo Site made my wedding day absolutely magical. The bridal team understood my vision perfectly — I felt like royalty. The attention to detail, the premium products, the serene environment — simply unmatched!',
     img: 'https://images.unsplash.com/photo-1494790108755-2616b612b77c?w=150&q=80&auto=format&fit=crop',
     date: 'March 2026',
   },
@@ -16,7 +16,7 @@ const reviews = [
     role: 'Regular Client',
     rating: 5,
     review:
-      'The hair coloring service here is extraordinary. I\'ve been to salons across Mumbai and Delhi — Élara is in a league of its own. The environment is so calming and the results are always flawless.',
+      'The hair coloring service here is extraordinary. I\'ve been to salons across Mumbai and Delhi — Demo Site is in a league of its own. The environment is so calming and the results are always flawless.',
     img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80&auto=format&fit=crop',
     date: 'February 2026',
   },
@@ -34,7 +34,7 @@ const reviews = [
     role: 'Academy Graduate',
     rating: 5,
     review:
-      'The beauty academy at Élara gave me the most professional training I could have asked for. The instructors are industry veterans, and the curriculum is international-grade. Truly life-changing.',
+      'The beauty academy at Demo Site gave me the most professional training I could have asked for. The instructors are industry veterans, and the curriculum is international-grade. Truly life-changing.',
     img: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&q=80&auto=format&fit=crop',
     date: 'December 2025',
   },
@@ -43,7 +43,7 @@ const reviews = [
     role: 'Monthly Member',
     rating: 5,
     review:
-      'Every visit feels like a retreat. The staff remembers my preferences, the ambiance is impeccable, and the results never disappoint. Élara has ruined me for any other salon — in the best way!',
+      'Every visit feels like a retreat. The staff remembers my preferences, the ambiance is impeccable, and the results never disappoint. Demo Site has ruined me for any other salon — in the best way!',
     img: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150&q=80&auto=format&fit=crop',
     date: 'November 2025',
   },
