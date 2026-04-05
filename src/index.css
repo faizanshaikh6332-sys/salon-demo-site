@@ -1,0 +1,319 @@
+@import "tailwindcss";
+
+@theme {
+  /* Gold Colors */
+  --color-gold-50: #fefdf5;
+  --color-gold-100: #fdf9e3;
+  --color-gold-200: #faf0b8;
+  --color-gold-300: #f7e282;
+  --color-gold-400: #f2cc3f;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #b8941e;
+  --color-gold-700: #9a7515;
+  --color-gold-800: #7d5e12;
+  --color-gold-900: #684e11;
+
+  /* Blush Colors */
+  --color-blush-50: #fdf5f7;
+  --color-blush-100: #fbeaef;
+  --color-blush-300: #f0afc3;
+  --color-blush-500: #d4708a;
+
+  /* Salon custom */
+  --color-salon-dark: #1a1209;
+  --color-salon-charcoal: #2d2418;
+  --color-salon-warm: #f9f5ee;
+
+  /* Fonts */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Lato', sans-serif;
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+:root {
+  --gold: #d4af37;
+  --gold-light: #f7e282;
+  --gold-dark: #9a7515;
+  --cream: #fdf9f0;
+  --dark: #1a1209;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #1a1209;
+  overflow-x: hidden;
+}
+
+.gold-divider {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  margin: 0 auto;
+}
+
+.gold-divider-left {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, #d4af37, transparent);
+  margin: 0;
+}
+
+.section-label {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #d4af37;
+  display: block;
+}
+
+.heading-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #d4af37 0%, #f7e282 50%, #d4af37 100%);
+  background-size: 200% auto;
+  color: #1a1209;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.btn-gold:hover {
+  background-position: right center;
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.5);
+  transform: translateY(-2px);
+}
+
+.btn-outline-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 31px;
+  background: transparent;
+  color: #d4af37;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1.5px solid #d4af37;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.btn-outline-gold:hover {
+  background: #d4af37;
+  color: #1a1209;
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-outline-white {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 31px;
+  background: transparent;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1.5px solid rgba(255,255,255,0.7);
+  cursor: pointer;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.btn-outline-white:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.card-luxury {
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card-luxury:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.6s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.08);
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 1000;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.12);
+  box-shadow: 0 6px 30px rgba(37, 211, 102, 0.7);
+}
+
+.award-card {
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  transition: all 0.4s ease;
+}
+
+.award-card:hover {
+  border-color: rgba(212, 175, 55, 0.6);
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.15);
+}
+
+.service-img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.service-img-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(26,18,9,0.7) 0%, transparent 50%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card-luxury:hover .service-img-wrap::after {
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f5ee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4af37;
+  border-radius: 3px;
+}
+
+.bg-cream {
+  background-color: #fdf9f0;
+}
+
+.input-luxury {
+  width: 100%;
+  padding: 14px 18px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: rgba(253, 249, 240, 0.5);
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #1a1209;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-luxury:focus {
+  border-color: #d4af37;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.input-luxury::placeholder {
+  color: #a08060;
+}
+
+.link-gold {
+  position: relative;
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.link-gold::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #d4af37;
+  transition: width 0.3s ease;
+}
+
+.link-gold:hover::after {
+  width: 100%;
+}
+
+.section-py {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+@media (max-width: 768px) {
+  .section-py {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .btn-gold, .btn-outline-gold, .btn-outline-white {
+    padding: 12px 24px;
+    font-size: 12px;
+  }
+}
